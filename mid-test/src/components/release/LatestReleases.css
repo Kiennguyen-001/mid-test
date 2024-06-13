@@ -1,0 +1,38 @@
+.latest-releases {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0 50px;
+}
+.movie-item {
+  color: #fff;
+  flex-basis: calc(100% / 6 - 20px);
+  text-align: center;
+  position: relative;
+}
+
+.movie-item img {
+  width: 100%;
+  height: auto;
+}
+.movie-image-wrapper {
+  position: relative;
+}
+.episode-number {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  color: #fff;
+  padding: 5px;
+  width: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.6) 10%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  padding: 10px 0;
+}
+h1 {
+  color: #fff;
+  padding: 0 50px;
+}

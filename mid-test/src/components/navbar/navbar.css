@@ -1,0 +1,56 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.nav-links a {
+  color: #868686;
+  text-decoration: none;
+  margin-right: 120px;
+}
+.nav-title,
+nav h1 {
+  color: #fff; /* Màu trắng */
+}
+
+.nav-links a.nav-title {
+  color: #fff !important;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.search-bar input {
+  width: 250px;
+  background-color: #374151;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+}
+nav h1 {
+  color: #fff;
+  padding: 0 50px;
+}
+nav p {
+  color: #868686;
+  padding: 0 50px;
+}
+
+.explore-content {
+  padding: 0 50px;
+}
+.movie-details-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0 50px;
+}
+.movie-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.movie-info {
+  flex: 1;
+}

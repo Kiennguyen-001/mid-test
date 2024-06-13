@@ -1,0 +1,8 @@
+body {
+  background-color: #192026;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
